@@ -17,3 +17,7 @@ git push -u origin 01-main
 git checkout -b 02-gitignore upstream/02-gitignore
 
 git push -u origin 02-gitignore
+
+Tareas:
+
+1. Mejorar el prompt para que muestre la ruta y el branch activo
