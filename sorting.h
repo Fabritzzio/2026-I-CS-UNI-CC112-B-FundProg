@@ -32,6 +32,20 @@ void PrintArray(T arr[], ContainerRange n){
     cout << endl;
 }
 
+// Búsqueda Binaria recursiva
+template <typename T, typename Func> 
+ContainerRange BinarySearch(T arr[], ContainerRange first, ContainerRange last, 
+                            T elem, Func func){
+    if (first > last)
+        return -1;
+    auto mid = first + (last - first) / 2;
+    if (arr[mid] == elem)
+        return mid;
+    if ( func(elem, arr[mid]) )
+        return BinarySearch(arr, mid + 1, last, elem, func);
+    return BinarySearch(arr, first, mid - 1, elem, func);
+}
+
 // Videos: https://www.youtube.com/watch?v=ZZuD6iUe3Pc
 // Bubble 
 template <typename T, typename Func> 
@@ -65,5 +79,6 @@ void DemoBurbuja();
 // void DemoMergeSort();
 
 void DemoSorting();
+void DemoSearch();
 
 #endif // __SORTING_H__

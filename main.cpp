@@ -15,5 +15,6 @@ int main() {
     // DemoAritmetica();
     //DemoUtil();
     DemoSorting();
+    DemoSearch();
     return 0;
 }
