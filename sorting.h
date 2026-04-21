@@ -2,6 +2,8 @@
 #define __SORTING_H__
 #include <iostream>
 #include "types.h"
+#include "util.h"
+
 // #include "compareFunc.h"
 using namespace std;
 using ContainerRange    = int;

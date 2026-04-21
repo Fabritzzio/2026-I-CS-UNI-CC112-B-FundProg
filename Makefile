@@ -6,7 +6,9 @@ TARGET = main
 SRCS = main.cpp arit.cpp \
        util.cpp \
 	   sorting.cpp \
-	   punteros.cpp
+	   punteros.cpp \
+	   vector.cpp \
+	   matrix.cpp
 
 OBJS = $(SRCS:.cpp=.o)
 

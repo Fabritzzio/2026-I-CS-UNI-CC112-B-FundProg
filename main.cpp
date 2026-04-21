@@ -3,6 +3,8 @@
 #include "util.h"
 #include "sorting.h"
 #include "punteros.h"
+#include "vector.h"
+#include "matrix.h"
 
 // Antes: g++ -std=c++2b main.cpp arit.cpp -o main
 // Ahora                : make
@@ -14,10 +16,11 @@
 int main() {
     std::cout << "HelloX FundProg-UNI!" << std::endl;
     // DemoAritmetica();
-    //DemoUtil();
+    // DemoUtil();
     // DemoSorting();
     // DemoSearch();
-    
-    DemoPunteros1();
+    //DemoPunteros1();
+    DemoPunteros2Vector();
+    DemoMatrix1();
     return 0;
 }

@@ -23,4 +23,6 @@ using UUTT1 = unsigned long long;
     using UTT1 = SUTT1;
 #endif
 
+using TP = int;
+
 #endif // __TYPES_H__

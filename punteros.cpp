@@ -2,7 +2,6 @@
 #include "punteros.h"
 
 using namespace std;
-using TP = int;
 
 void Print(TP n){
     cout << n << endl;
@@ -12,7 +11,7 @@ void Print(TP n){
 void f1(TP n){     ++n;    }
 
 // Paso por referencia
-void f2(TP &n){    ++n;    }
+void f2(TP &rn){    ++rn;    }
 
 // Paso por referencia constante
 void f3(const TP &n){}
