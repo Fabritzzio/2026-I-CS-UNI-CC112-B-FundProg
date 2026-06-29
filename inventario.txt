@@ -1,0 +1,3 @@
+Laptop,Lap123,1500,40
+Mac,Mac123,2000,25
+Audifonos Lacoste,AUD201,90.5,25
